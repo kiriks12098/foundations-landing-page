@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header-block {
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.title-block {
+    display: flex;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-cards {
+    display: flex;
+}
+
+.signup-block {
+    display: flex;
+}
+
+.signup-slogan {
+    display: flex;
+    flex-direction: column;
+}
