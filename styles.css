@@ -27,11 +27,13 @@ body {
     padding-left: 150px;
     padding-right: 150px;
     justify-content: space-between;
+    padding-bottom: 100px;
 }
 
 .info-block {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .title-column {
@@ -43,6 +45,7 @@ body {
 
 .image-cards {
     display: flex;
+    gap: 40px;
 }
 
 .signup-block {
@@ -60,12 +63,29 @@ body {
     background: #1F2937;
 }
 
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    padding: 100px 200px 100px 200px;
+}
+
 .quote {
+    display: flex;
     background: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     color:  #1F2937 ;
     font-weight: light;
+    margin: 0;
+    flex-basis: auto;
+}
+
+.speaker {
+    display: flex;
+    font-weight: 800;
+    justify-content: flex-end;
+    
 }
 
 button {
@@ -113,4 +133,8 @@ ul {
 img {
     height: 200px;
     width: 200px;
+}
+
+.image-cards p {
+    inline-size: 200px;
 }
