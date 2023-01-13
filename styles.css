@@ -36,3 +36,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.footer {
+    color: white;
+    background: #1F2937;
+}
