@@ -91,3 +91,8 @@ ul {
     font-weight: 800;
     color: #F9FAF8;
 }
+
+img {
+    height: 200px;
+    width: 200px;
+}
