@@ -30,6 +30,7 @@ body {
 
 .signup-block {
     display: flex;
+    background: #3882F6;
 }
 
 .signup-slogan {
@@ -48,4 +49,8 @@ body {
     font-style: italic;
     color:  #1F2937 ;
     font-weight: light;
+}
+
+button {
+    background: #3882F6;
 }
