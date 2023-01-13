@@ -51,6 +51,10 @@ body {
 .signup-block {
     display: flex;
     background: #3882F6;
+    margin: 50px 100px 50px 100px;
+    padding: 25px 100px 25px 100px;
+    justify-content: space-between;
+    color: white;
 }
 
 .signup-slogan {
@@ -81,10 +85,11 @@ body {
     flex-basis: auto;
 }
 
-.speaker {
+#speaker {
     display: flex;
     font-weight: 800;
     justify-content: flex-end;
+    padding-right: 50px;
     
 }
 
