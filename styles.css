@@ -79,3 +79,8 @@ a:link {
 ul {
     list-style: none;
 }
+
+.hero-sec {
+    font-size: 18px;
+    color: #E5E7EB;
+}
