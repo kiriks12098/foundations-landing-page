@@ -55,6 +55,7 @@ body {
     padding: 25px 100px 25px 100px;
     justify-content: space-between;
     color: white;
+    border-radius: 10px;
 }
 
 .signup-slogan {
