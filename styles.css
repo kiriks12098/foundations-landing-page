@@ -24,11 +24,21 @@ body {
 .title-block {
     display: flex;
     background: #1F2937;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-between;
 }
 
 .info-block {
     display: flex;
     flex-direction: column;
+}
+
+.title-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    justify-content: right;
 }
 
 .image-cards {
@@ -60,6 +70,7 @@ body {
 
 button {
     background: #3882F6;
+    width: 100px;
 }
 
 .info-header {
@@ -89,12 +100,14 @@ ul {
 .hero-sec {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 
 #hero-main {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
 }
 
 img {
