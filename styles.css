@@ -63,8 +63,10 @@ body {
 }
 
 .footer {
+    display: flex;
     color: white;
     background: #1F2937;
+    justify-content: center;
 }
 
 .quote-box {
@@ -96,6 +98,9 @@ body {
 button {
     background: #3882F6;
     width: 100px;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
 }
 
 .info-header {
