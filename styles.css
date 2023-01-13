@@ -1,11 +1,14 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:space-between ;
+    min-height: 100vh;
 }
 
 .header-block {
     display: flex;
+    background: #1F2937;
+    color: white;
 }
 
 .header-nav {
